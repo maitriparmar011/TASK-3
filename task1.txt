@@ -1,0 +1,57 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Design</title>
+  <link rel="stylesheet" href="style.css">
+/* style.css */
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  margin: 0;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+main {
+  margin-top: 20px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  body {
+    background-color: #f0f0f0;
+  }
+
+  header {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  header {
+    background-color: #222;
+  }
+
+  main p {
+    font-size: 0.9rem;
+  }
+}
+
+</head>
+<body>
+  <header>
+    <h1>Responsive Webpage</h1>
+  </header>
+  <main>
+    <p>This page adjusts based on screen size.</p>
+  </main>
+</body>
+</html>
